@@ -1,3 +1,8 @@
+package modelo
+
+import modelo.Autenticavel
+import modelo.Diretor
+
 class SistemaInterno {
 
     fun entra(admin: Autenticavel, senha: Int) {

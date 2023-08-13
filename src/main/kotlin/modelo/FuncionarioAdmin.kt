@@ -1,3 +1,8 @@
+package modelo
+
+import modelo.Autenticavel
+import modelo.Funcionario
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,
@@ -7,7 +12,7 @@ abstract class FuncionarioAdmin(
     nome = nome,
     cpf = cpf,
     salario = salario
-), Autenticavel{
+), Autenticavel {
 
     override fun autentica(senha: Int): Boolean {
         if (this.senha == senha) {
