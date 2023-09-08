@@ -1,7 +1,4 @@
-package modelo
-
-import modelo.Autenticavel
-import modelo.Diretor
+package br.com.alura.bytebank.modelo
 
 class SistemaInterno {
 

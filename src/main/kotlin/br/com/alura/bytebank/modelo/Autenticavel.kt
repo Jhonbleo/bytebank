@@ -1,4 +1,4 @@
-package modelo
+package br.com.alura.bytebank.modelo
 
 interface Autenticavel { //interfaces sempre são abstratas, indica-las como abstratas torna o código redundante.
 

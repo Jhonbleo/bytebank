@@ -1,9 +1,8 @@
-package modelo
+package br.com.alura.bytebank.modelo
 
-import modelo.Conta
 
 class ContaSalario(
-    titular: String,
+    titular: Cliente,
     numero: Int
 ) : Conta(
     titular = titular,
